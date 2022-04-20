@@ -39,8 +39,8 @@ layout: default
   <div class="app__screenshots-wrapper container-desktop">
     <div class="app__screenshots-list">
       {% for screenshot in site.data.app.screenshots %}
-      <a href="/assets/images/screenshots/{{ screenshot }}" class="lightbox">
-       <img src="/assets/images/screenshots/{{ screenshot }}" class="app__screenshot">
+      <a href="/assets/images/screenshots/{{ screenshot }}" class="lightbox" aria-label="Screenshot {{ screenshot }}">
+       <img src="/assets/images/screenshots/{{ screenshot }}" class="app__screenshot" alt="">
       </a>
       {% endfor %}
     </div>
@@ -50,15 +50,5 @@ layout: default
   <h2 class="app__section-title">{{ site.data.strings.app.description }}</h2>
   <div class="app__fulldescription-content">
     <p>{{ site.data.app.full_description }}</p>
-  </div>
-</section>
-<section class="app__featured app__section container">
-  <h2 class="app__section-title">{{ site.data.strings.app.featured }}</h2>
-  <div class="app__featured-content">
-    {% for company in site.data.app.companies %}
-    <a href="{{ company.url }}" target="_blank" class="app__featured-company">
-     <img src="/assets/images/companies/{{ company.image }}" class="app__featured-image">
-    </a>
-    {% endfor %}
   </div>
 </section>

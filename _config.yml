@@ -3,36 +3,33 @@
 # This config file contains the config of your webpages
 # You may also want to update /config/webpack.pwa.js in case you want to generate a Progressive Web App
 
-title: Mobile App Landing Page Template
-email: contact@sandoche.com
-description: Free to use static landing page template to showcase your mobile app
+title: "Symfonium: Music player and cast"
+email: support@symfonium.app
+description: Play and cast music from Plex, Emby, Jellyfin, Subsonic, Kodi or your device
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mobileapplandingpage.learn.uno" # the base hostname & protocol for your site, e.g. http://example.com
-theme_color: '#efeeff'
-twitter_username: sandochee
-github_username:  sandoche
-author: Sandoche Adittane
+url: "https://symfonium.app" # the base hostname & protocol for your site, e.g. http://example.com
+theme_color: '#FF2400'
+twitter_username: SymfoniumMusic
+github_username:  SymfoniumMusic
+author: SymfoniumMusic
 logo: assets/images/large-logo.png
 twitter:
-  username: sandochee
+  username: SymfoniumMusic
 social:
-  name: Sandoche Adittane
+  name: Symfonium
   links:
-    - https://twitter.com/sandochee
-    - https://www.facebook.com/sandoche
-    - https://www.linkedin.com/in/sandoche
-    - https://plus.google.com/+SandocheADITTANE
-    - https://github.com/sandoche
+    - https://twitter.com/SymfoniumMusic
+    - https://www.facebook.com/SymfoniumMusic
 
 languages: ["en"]
 ampdir: amp
 
-github: https://github.com/sandoche/Mobile-app-landingpage-template
+github: false
 
 ### Google webmaster tools, Google Analytics, Doorbell and Cookie consent uncomment and put the API key
 #webmaster_verifications:
 #  google: verification_code
-#google_analytics: UA-XXXXXXXXX-X
+google_analytics: false
 #doorbell:
 #  id: doorbell_id
 #  appKey: doorbell_appKey

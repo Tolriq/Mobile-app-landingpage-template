@@ -1,11 +1,11 @@
 {
-  "name": "Mobile App Name",
-  "short_name": "Mobile App Name",
+  "name": "Symfonium: Music player and cast",
+  "short_name": "Symfonium",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "/",
-  "description": "A super tagline for the mobile app",
+  "description": "Play and cast music from Plex, Emby, Jellyfin, Subsonic, Kodi or your device.",
   "scope": "/",
-  "theme_color": "#efeeff",
-  "background_color": "#efeeff"
+  "theme_color": "#FF2400",
+  "background_color": "#FF2400"
 }

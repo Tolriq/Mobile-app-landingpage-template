@@ -1,21 +1,27 @@
-name: Mobile App Name
-description: A super tagline for the mobile app
-full_description: 'A more complete description of the mobile app<br>
-<br>With a lot of features:
-<br>- Feature 1
-<br>- Feature 2
-<br>- Feature 3'
-android: https://telegra.ph/Replace-this-link-07-23
-iOS: https://telegra.ph/Replace-this-link-07-23
-web: https://telegra.ph/Replace-this-link-07-23
+name: "Symfonium: Music player and cast"
+description: Play and cast music from Plex, Emby, Jellyfin, Subsonic, Kodi or your device
+full_description: '<b>Symfonium</b> is a simple and modern music player, with an unique vision to be your central control point for your music. Add multiple media providers (Your local device, Plex, Emby, Jellyfin, Subsonic, Kodi) then play your music on any supported player (Your local device, Chromecast, UPnP, DLNA, Kodi).<br />
+<br />
+<b>UNIQUE FUNCTIONS</b><br />
+• <b>Consolidate</b> all your music from different media providers (Android, Plex, Emby, Jellyfin, Subsonic, Kodi) in a fast, beautiful and intuitive interface.<br />
+• <b>Cast</b> your music to Chromecast, UPnP/DLNA or Kodi devices.<br />
+• Cache your media for offline playback (Manual or automatic).<br />
+• Advanced <b>Android Auto</b> support.<br />
+• Many functions for <b>audio books</b> like playback speed, album or playlist resume, …<br />
+• Smart filters and smart playlist to organize and play your media on many different criteria.<br />
+• Fully configurable interface: organize your tabs, shortcuts, overview and much more.<br />
+• Complete <b>file mode</b> support.<br />
+• Advanced "Mix" modes that evolves with your listening habits.<br />
+• Fully embrace <b>Material You</b> and Android 12+ colored themes, while still proposing many other themes (including custom ones).<br />
+• Advanced local player with gapless, skip silence, volume boost and supporting many formats like Alac, Flac, Opus, …<br />
+• And much, much more, just install and try everything with the full free trial.<br />'
+android: https://play.google.com/store/apps/details?id=app.symfonik.music.player
+iOS: false
+web: false
 screenshots:
-  - 1.png
-  - 2.png
-  - 3.png
-  - 4.png
-producthunt: https://telegra.ph/Replace-this-link-07-23
-companies:
-  - url: https://telegra.ph/Replace-this-link-07-23
-    image: androidpolice.png
-  - url: https://telegra.ph/Replace-this-link-07-23
-    image: producthunt.png
+  - 1.webp
+  - 2.webp
+  - 5.webp
+  - 6.webp  
+  - 3.webp
+  - 4.webp
