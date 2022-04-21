@@ -1,8 +1,7 @@
-_site
 .sass-cache
 .jekyll-metadata
 node_modules
-assets
+/assets
 yarn-error.log
 .yarnclean
 

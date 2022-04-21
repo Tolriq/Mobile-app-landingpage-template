@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "api_version": 1,
+  "layout": {
+    "logo": "yandex-browser-50x50.png",
+    "color": "#fff",
+    "show_title": true
+  },
+  "name": "Symfonium: Music player and cast",
+  "short_name": "Symfonium",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "Play and cast music from Plex, Emby, Jellyfin, Subsonic, Kodi or your device.",
+  "scope": "/",
+  "theme_color": "#FF2400",
+  "background_color": "#FF2400"
+}
